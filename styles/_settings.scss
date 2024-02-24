@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+// Fonts
+$font-allura: "Allura", cursive;
+$font-poppins: "Poppins", sans-serif;
+$font-roboto: "Roboto", sans-serif;
+
+// Colors
+$color-white: whitesmoke;
+$color-black: #2c2b2b;
+$color-grey: #9a9a9a;
+$color-gold: #ac7141;
+
+// Mixins
+@mixin FixCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin alignChildren($space) {
+  display: flex;
+  align-items: center;
+  justify-content: $space;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+li {
+  list-style-type: none;
+}
+body {
+  text-align: center;
+  font-family: $font-roboto;
+  background: $color-black;
+}
+p {
+  font-family: $font-roboto;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: $color-white;
+}
+
+a {
+  text-decoration: none;
+  color: $color-white;
+  &:hover {
+    color: $color-gold;
+  }
+}
