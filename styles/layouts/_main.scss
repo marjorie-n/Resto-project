@@ -74,7 +74,7 @@
     height: 600px;
     width: 100%;
     left: 50%;
-    background: url(../../assets/img/bg-menu-01.jpg);
+    background: url(../assets/img/bg-menu-01.jpg);
     transform: translate(-50%, -50%);
     bottom: -300px;
   }
@@ -381,19 +381,19 @@
         grid-area: a;
 
         .date {
-          background: url(../../assets/img/event-01.jpg) center/cover;
+          background: url(../assets/img/event-01.jpg) center/cover;
         }
       }
       .event-2 {
         grid-area: c;
 
         .date {
-          background: url(../../assets/img/event-02.jpg) center/cover;
+          background: url(../assets/img/event-02.jpg) center/cover;
         }
       }
       .event-3 {
         grid-area: b;
-        background: url(../../assets/img/event-03.jpg) center/cover;
+        background: url(../assets/img/event-03.jpg) center/cover;
         padding: 25px;
 
         .address {
@@ -423,7 +423,7 @@
     width: 100%;
     left: 0;
     bottom: 0;
-    background: url(../../assets/img/gmap.jpg);
+    background: url(../assets/img/gmap.jpg);
     position: absolute;
   }
   .quote-box {
@@ -441,7 +441,7 @@
     &::before {
       content: "";
       position: absolute;
-      background: url(../../assets/img/avatar-02.jpg) center/cover;
+      background: url(../assets/img/avatar-02.jpg) center/cover;
       height: 60px;
       width: 60px;
       border-radius: 50%;
